@@ -1,0 +1,60 @@
+body {
+    color: black;
+    background: rgb(0, 0, 0); 
+    margin: 0px;
+    font-family: "Rubik Wet Paint", system-ui;
+    margin-bottom: 100px;
+}
+
+header{
+    border-bottom: solid 2px rgb(193, 226, 182);
+    padding:25px;
+    font-size: 40px;
+    color: rgb(193, 226, 182);
+}
+
+.chamada {
+    background: rgb(174, 205, 246);
+    padding-bottom: 80px;
+    padding-top: 90px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 260px;
+}
+
+h1{
+    font-size: 90px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.categoria-musicas {
+    display: flex;
+    overflow-x: auto;
+    gap: 60px
+}
+
+.categoria {
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 50px;
+}
+
+.categoria-musicas img {
+    opacity: 0.5;
+    height: 230px;
+}
+
+.categoria-musicas img:hover {
+    opacity: 1.0;
+    border: 1px solid rgb(255, 255, 255); 
+}
+
+.categoria h2 {
+    color: rgb(193, 226, 182);
+}
